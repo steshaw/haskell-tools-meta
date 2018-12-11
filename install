@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 set -euo pipefail
+set -x
 
 if [[ $(uname) == Linux ]]; then
   sudo apt-get -qqy install libtinfo-dev
