@@ -8,7 +8,7 @@ fi
 
 exec stack \
   install \
-    --resolver='lts-12.22' \
+    --resolver='lts-12.26' \
     apply-refact \
     brittany \
     hasktags \
